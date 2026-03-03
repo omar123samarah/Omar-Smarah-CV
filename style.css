@@ -1,0 +1,52 @@
+
+.myphoto{
+    height: 200px;
+    border-radius: 50%;
+
+}
+.two{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.three{
+    text-align: center;
+    color: #c88244;
+}
+.four{
+    margin-top: 50px;
+    color: #322327;
+
+
+}
+.four img{
+    height: 150px;
+}
+.four h3{
+    float: right;
+}
+.post {
+    display: flex;
+    /* يخليهم بجانب بعض */
+    align-items: center;
+    /* محاذاة عمودية */
+    gap: 15px;
+    /* مسافة بين الصورة والنص */
+    margin-bottom: 20px;
+    /* مسافة بين الكروت */
+}
+
+.post img {
+    width: 150px;
+    height: auto;
+}
+.custom-color {
+    color: #611f00;
+}
+ .getintoch{
+color: #c88244;
+}
+.footor{
+background-color:#c88244;
+color: #c88244;
+}
